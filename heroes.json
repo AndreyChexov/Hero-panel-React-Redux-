@@ -1,0 +1,43 @@
+{
+  "heroes": [
+    {
+      "id": "1cf6cc08-e3bb-4075-b388-53c44e4d62d7",
+      "name": "Thor",
+      "description": "kill",
+      "element": "water"
+    },
+    {
+      "id": "4e50a42c-1911-4c10-a4fa-67124239bbe5",
+      "name": "Dragon",
+      "description": "create fire",
+      "element": "fire"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "Все",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "fire",
+      "label": "Огонь",
+      "className": "btn-danger"
+    },
+    {
+      "name": "water",
+      "label": "Вода",
+      "className": "btn-primary"
+    },
+    {
+      "name": "wind",
+      "label": "Ветер",
+      "className": "btn-success"
+    },
+    {
+      "name": "earth",
+      "label": "Земля",
+      "className": "btn-secondary"
+    }
+  ]
+}
