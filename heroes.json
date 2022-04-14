@@ -7,9 +7,15 @@
       "element": "water"
     },
     {
-      "id": "4e50a42c-1911-4c10-a4fa-67124239bbe5",
-      "name": "Dragon",
-      "description": "create fire",
+      "id": "1328b4a3-dac6-4adf-9e83-aa77e29433ea",
+      "name": "Кремень ",
+      "description": "Высокая стойкость к атакам",
+      "element": "earth"
+    },
+    {
+      "id": "ca33f2f0-bb2f-40b2-abdb-3685b34554eb",
+      "name": "Гор",
+      "description": "Великая мощь",
       "element": "fire"
     }
   ],

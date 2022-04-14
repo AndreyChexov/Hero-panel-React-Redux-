@@ -33,7 +33,7 @@ const reducer = (state = initialState, action) => {
             }
 
         case 'ADD_HERO' :
-            const newHero = [...state.heroes, action.payload]
+            let newHero = [...state.heroes, action.payload]
             return {
                 ...state,
                 heroes: newHero
