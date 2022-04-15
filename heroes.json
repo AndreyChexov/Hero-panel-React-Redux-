@@ -17,6 +17,12 @@
       "name": "Гор",
       "description": "Великая мощь",
       "element": "fire"
+    },
+    {
+      "id": "531ab2ab-ea7f-4b5b-a6dc-d0e8beb81987",
+      "name": "Meril",
+      "description": "Fighter",
+      "element": "fire"
     }
   ],
   "filters": [
