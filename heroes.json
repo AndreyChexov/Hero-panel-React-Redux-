@@ -7,22 +7,22 @@
       "element": "water"
     },
     {
-      "id": "1328b4a3-dac6-4adf-9e83-aa77e29433ea",
-      "name": "Кремень ",
-      "description": "Высокая стойкость к атакам",
-      "element": "earth"
-    },
-    {
       "id": "ca33f2f0-bb2f-40b2-abdb-3685b34554eb",
       "name": "Гор",
       "description": "Великая мощь",
       "element": "fire"
     },
     {
-      "id": "531ab2ab-ea7f-4b5b-a6dc-d0e8beb81987",
-      "name": "Meril",
-      "description": "Fighter",
+      "id": "dd336704-4083-4f01-bd96-624de0016597",
+      "name": "Икар",
+      "description": "Управляет огнем ",
       "element": "fire"
+    },
+    {
+      "id": "ece22f3c-7744-495e-9f62-d6a2c0c0c8e6",
+      "name": "Тайфун",
+      "description": "...",
+      "element": "wind"
     }
   ],
   "filters": [
