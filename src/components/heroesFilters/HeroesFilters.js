@@ -3,7 +3,8 @@ import {useEffect} from "react";
 import {useHttp} from "../../hooks/http.hook";
 import classNames from 'classnames';
 
-import { fetchFilters, activeFilterChanged } from '../../actions';
+import { fetchFilters } from '../../actions';
+import { activeFilterChanged } from "./filtersSlice";
 import Spinner from '../spinner/Spinner';
 
 

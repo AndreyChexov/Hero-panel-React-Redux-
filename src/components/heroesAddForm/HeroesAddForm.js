@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {useHttp} from "../../hooks/http.hook";
-import {addHero} from "../../actions";
+import {heroCreated} from "../heroesList/heroesSlice";
 import { v4 as uuidv4 } from 'uuid';
 
 
@@ -25,7 +25,7 @@ const HeroesAddForm = () => {
         }
 
         request('http://localhost:3001/heroes', "POST", JSON.stringify(newHero))
-            .then(dispatch(addHero(newHero)))
+            .then(dispatch(heroCreated(newHero)))
             .catch(err => console.log('error'))
 
 

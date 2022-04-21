@@ -17,6 +17,12 @@
       "name": "Drake",
       "description": "You known..",
       "element": "wind"
+    },
+    {
+      "id": "e2763d27-8a78-4906-8432-6297de38261f",
+      "name": "Onix",
+      "description": "Eat stones",
+      "element": "earth"
     }
   ],
   "filters": [
