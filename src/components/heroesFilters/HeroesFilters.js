@@ -3,8 +3,7 @@ import {useEffect} from "react";
 import {useHttp} from "../../hooks/http.hook";
 import classNames from 'classnames';
 
-import { fetchFilters } from '../../actions';
-import { activeFilterChanged } from "./filtersSlice";
+import { activeFilterChanged, filtersFetch } from "./filtersSlice";
 import Spinner from '../spinner/Spinner';
 
 
@@ -15,7 +14,7 @@ const HeroesFilters = () => {
     const {request} = useHttp();
 
     useEffect(() => {
-        dispatch(fetchFilters(request))
+        dispatch(filtersFetch())
     }, [])
 
     if (filtersLoadingStatus === "loading") {
