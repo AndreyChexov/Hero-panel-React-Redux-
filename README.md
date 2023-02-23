@@ -1,1 +1,1 @@
-This is test project with hero admin panel!
+First app with redux
